@@ -3,17 +3,16 @@
 
 name: Hexo Deploy
 
-# on:
-#   push:
-#     branches:
-#       - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: prebuild
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
