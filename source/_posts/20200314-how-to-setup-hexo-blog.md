@@ -49,6 +49,8 @@ cd blog
 git submodule add https://github.com/theme-next/hexo-theme-next themes/next
 ```
 
+It is a little different from official document. It will be helpful in the next step([【Hexo】2. How to Deploy Hexo Project with Github Actions](https://achillessatan.github.io/posts/16107/)).
+
 Change the `theme` in `./config.yml` to `next`.
 
 ```yml
