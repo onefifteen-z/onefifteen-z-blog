@@ -21,8 +21,8 @@ jobs:
       - run: echo "${{secrets.DEPLOY_KEY}}" > ~/.ssh/id_rsa
       - run: chmod 600 ~/.ssh/id_rsa
       - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - run: git config --global user.name 'gythialy'
-      - run: git config --global user.email 'gythialy@users.noreply.github.com'
+      - run: git config --global user.name 'achillessatan'
+      - run: git config --global user.email 'achillessatan@users.noreply.github.com'
       - run: npm ci
       - run: npm i -g hexo-cli
       - run: git submodule update --init
