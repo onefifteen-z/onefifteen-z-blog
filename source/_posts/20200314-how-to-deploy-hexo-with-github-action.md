@@ -18,7 +18,7 @@ In this blog, it will talk about how to deploy you blog automatically with the C
 
 ### Prepare the Config File of the Theme
 
-As metioned in the last blog, we are now using the `github submodule` to manage the theme `Next`. The submodule can be initialized on Github Action with command `git submodule update --init`. However, we will lose the changes we have made in the config file  `themes/next/_config.yml`. There are serveral way to resolve this:
+As metioned in the last blog, we are now using the `github submodule` to manage the theme `Next`. The submodule can be initialized on Github Action with command `git submodule update --init`. However, we will lose the changes we have made in the config file  `themes/next/_config.yml`. There are several ways to resolve this:
 
 - Fork the `Next` in our repository and commit the changes of the config. But we will need to do something more when `Next` is updated.
 - Copy all the things into the main config file `_config.yml`. This will make the `_config.yml` a little confusing.
