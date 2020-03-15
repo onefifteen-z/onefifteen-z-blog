@@ -1,8 +1,9 @@
 ---
-title: 【Hexo】1. How to Setup Blog with Hexo and Next on GitHub Pages
+title: 【Hexo】1. How to Setup Blog with Hexo and NexT on GitHub Pages
 tags:
   - GitHub
   - Hexo
+  - NexT
 categories:
   - Development
   - Hexo
@@ -11,7 +12,7 @@ date: 2020-03-14 19:47:21
 ---
 ### Quick Start
 
-This article simply talks about how to setup blog with Hexo and Next and deploy it to GitHub Pages.
+This article simply talks about how to setup blog with Hexo and NexT and deploy it to GitHub Pages.
 
 ### Install Node.js & npm with Homebrew
 
@@ -42,7 +43,7 @@ cd blog
 npm install
 ```
 
-### Setup Theme - [Next](https://github.com/theme-next/hexo-theme-next)
+### Setup Theme - [NexT](https://github.com/theme-next/hexo-theme-next)
 
 ```bash
 cd blog

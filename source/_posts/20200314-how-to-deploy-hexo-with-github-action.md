@@ -12,15 +12,15 @@ date: 2020-03-14 20:07:21
 ---
 ### Quick Start
 
-In the last blog [【Hexo】1. How to Setup Blog with Hexo and Next on GitHub Pages](https://achillessatan.github.io/posts/54991/), we learned how to setup up a blog web with Hexo and deploy it from local to GitHub Pages.
+In the last blog [【Hexo】1. How to Setup Blog with Hexo and NexT on GitHub Pages](https://achillessatan.github.io/posts/54991/), we learned how to setup up a blog web with Hexo and deploy it from local to GitHub Pages.
 
 In this blog, it will talk about how to deploy you blog automatically with the CI tool `Github Action`.
 
 ### Prepare the Config File of the Theme
 
-As metioned in the last blog, we are now using the `github submodule` to manage the theme `Next`. The submodule can be initialized on Github Action with command `git submodule update --init`. However, we will lose the changes we have made in the config file  `themes/next/_config.yml`. There are several ways to resolve this:
+As metioned in the last blog, we are now using the `github submodule` to manage the theme `NexT`. The submodule can be initialized on Github Action with command `git submodule update --init`. However, we will lose the changes we have made in the config file  `themes/next/_config.yml`. There are several ways to resolve this:
 
-- Fork the `Next` in our repository and commit the changes of the config. But we will need to do something more when `Next` is updated.
+- Fork the `NexT` in our repository and commit the changes of the config. But we will need to do something more when `NexT` is updated.
 - Copy all the things into the main config file `_config.yml`. This will make the `_config.yml` a little confusing.
 - Backup the config file in the main repository and overwrite the original one in the Github Action.
 
