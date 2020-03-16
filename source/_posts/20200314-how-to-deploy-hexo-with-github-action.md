@@ -1,5 +1,5 @@
 ---
-title: 【Hexo】2. How to Deploy Hexo Project with Github Actions
+title: 【Hexo】Part 2. How to Deploy Hexo Project with Github Actions
 tags:
   - GitHub
   - GitHub Action
@@ -12,7 +12,7 @@ date: 2020-03-14 20:07:21
 ---
 ### Quick Start
 
-In the last blog [【Hexo】1. How to Setup Blog with Hexo and NexT on GitHub Pages](https://achillessatan.github.io/posts/54991/), we learned how to setup up a blog web with Hexo and deploy it from local to GitHub Pages.
+In the last blog [【Hexo】Part 1. How to Setup Blog with Hexo and NexT on GitHub Pages](https://achillessatan.github.io/posts/54991/), we learned how to setup up a blog web with Hexo and deploy it from local to GitHub Pages.
 
 In this blog, it will talk about how to deploy you blog automatically with the CI tool `Github Action`.
 

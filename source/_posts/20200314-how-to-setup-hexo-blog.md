@@ -1,5 +1,5 @@
 ---
-title: 【Hexo】1. How to Setup Blog with Hexo and NexT on GitHub Pages
+title: 【Hexo】Part 1. How to Setup Blog with Hexo and NexT on GitHub Pages
 tags:
   - GitHub
   - Hexo

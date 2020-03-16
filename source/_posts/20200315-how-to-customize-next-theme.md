@@ -1,5 +1,5 @@
 ---
-title: 【Hexo】3. How to Customize Your NexT
+title: 【Hexo】Part 3. How to Customize Your NexT
 abbrlink: 54115
 date: 2020-03-15 20:35:11
 tags:
